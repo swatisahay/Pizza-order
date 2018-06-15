@@ -32,9 +32,6 @@ pizza.prototype.totalPrice=function(){
     }
   }
 
-
-
-
 }
 
 
