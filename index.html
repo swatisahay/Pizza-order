@@ -1,61 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Pizza Order</title>
-  </head>
-  <body>
-    <div class="container">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pizza Order</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
       <h1>Indian Pizza Company</h1>
-      <div class="container">
-   <div class="jumbotron">
-     <h2>Build your own pizza</h2>
-   </div>
-   <form id="pizza-order">
-     <div class="form-group">
-       <label for="size">Select size of your pizza</label>
-       <select class="form-control" id="size">
-         <option value="small">Small</option>
-         <option value="medium">Medium</option>
-         <option value="large">Large</option>
-       </select>
-     </div>
-     <div class="form-group">
-       <label for="toppings">Select your toppings</label><br>
-       <input type="checkbox" name="toppings" value="mushroom"> Mushroom.<br>
-       <input type="checkbox" name="toppings" value="sausage">Sausage.<br>
-       <input type="checkbox" name="toppings" value="pepporoni">Pepporoni<br>
-       <input type="checkbox" name="toppings" value="onion">onion.<br>
-       <input type="checkbox" name="toppings" value="chicken">Chicken.<br>
-       <input type="checkbox" name="toppings" value="Green-pepper">Green Pepper<br>
-       <input type="checkbox" name="toppings" value="extracheese">Extra-cheese<br>
-     </div>
-     <div class="form-group">
-       <label for="Sauce">Select your sauce</label>
-       <select class="form-control" id="sauce">
-         <option value="1">Alfredo</option>
-         <option value="2">Pesto</option>
-         <option value="3">Red sauce</option>
-         <option value="4">Marinara</option>
-       </select>
-     </div>
-    <button type="submit" class="btn btn-success">Ok</button>
-   </form>
-   <p>Your total price is <span class=" totalPrice"></span></p>
-    <ul id="price">
-
-
-
-
-  </ul>
- </div>
-
-
-
-
     </div>
-  </body>
+
+    <div class="font">
+      <div class="row">
+        <h2>Build your own pizza</h2>
+
+        <div class="col-md-4">
+
+
+
+
+
+          <form id="pizza-order">
+            <div class="form-group">
+              <label for="size">Select size of your pizza</label>
+              <select class="form-control" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="toppings">Select your toppings</label><br>
+              <input type="checkbox" name="toppings" value="Mushroom"> Mushroom.<br>
+              <input type="checkbox" name="toppings" value="Sausage">Sausage.<br>
+              <input type="checkbox" name="toppings" value="Pepporoni">Pepporoni<br>
+              <input type="checkbox" name="toppings" value="Onion">onion.<br>
+              <input type="checkbox" name="toppings" value="Chicken">Chicken.<br>
+              <input type="checkbox" name="toppings" value="Green-pepper">Green Pepper<br>
+              <input type="checkbox" name="toppings" value="Extra-cheese">Extra-cheese<br>
+            </div>
+            <div class="form-group">
+              <label for="Sauce">Select your sauce</label>
+              <select class="form-control" id="sauce">
+                <option value="Alfredo">Alfredo</option>
+                <option value="Pesto">Pesto</option>
+                <option value="Red">Red sauce</option>
+                <option value="Marinara">Marinara</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Ok</button>
+          </form>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+
+        <div class="col-md-6">
+
+          <div class="panel panel-body">
+
+
+            <div class="bill">
+              <h2>Bill</h2>
+
+              <p>Your total price is: $<span class=" totalPrice"></span></p>
+              <ul id="price">
+
+
+
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
 </html>

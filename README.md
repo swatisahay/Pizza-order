@@ -9,8 +9,11 @@
 _Its a customized pizza ordering site where you can select your toppings and size to order pizza_
 
 ## Specification:
-* _Customer can customize there pizza_
-* _Afer Customizing pizza they should be able to get price of each pizza_
+* _Customer can select toppings, sauce and size of pizza_
+* _After Customizing pizza they should be able to get price of each pizza_
+* _Customer can order more than one pizza_
+* _Customer can see list of pizza they ordered and its price anfd total price_
+
 
 ## Setup/Installation Requirements
 

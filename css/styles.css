@@ -1,0 +1,26 @@
+body{
+  background: url(../img/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1{
+  text-align: center;
+  font-family: Times;
+}
+.font{
+  font-size: 20px;
+  color: white;
+  font-family: Times;
+}
+h2{
+  text-align: center;
+}
+.bill{
+  font-family: Times;
+  font-size: 20px;
+  color: black;
+}
+#size{
+ font-size: 15px;
+}

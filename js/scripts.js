@@ -1,3 +1,6 @@
+
+// business logic
+
 function pizza(size, toppings,price) {
   this.size = size;
   this.toppings = toppings;
@@ -32,13 +35,13 @@ pizza.prototype.totalPrice=function(){
 
 
 
-  }
+}
 
 
 
 var totalPrice=0
 
-
+//user-interface logic
 $(document).ready(function(){
   $("form#pizza-order").submit(function(event){
     event.preventDefault();
@@ -47,19 +50,19 @@ $(document).ready(function(){
     var listOfToppings=[];
     var toppings=0;
     $("input:checkbox[name=toppings]:checked").each(function(){
-     toppings += 1;
-     listOfToppings.push($(this).val());
+      toppings += 1;
+      listOfToppings.push($(this).val());
     });
     var newPizza= new pizza(size, toppings)
     newPizza.totalPrice();
     totalPrice+=newPizza.price;
-      // $(".size").text(newPizza.size);
-     $(".totalPrice").text(totalPrice);
+    // $(".size").text(newPizza.size);
+    $(".totalPrice").text(totalPrice);
 
-    $("ul#price").append("<li>"+"You have ordered a"+ " "+ newPizza.size +" "+ "size " + " with "+"toppings "+ " "+ listOfToppings + " "+"pizza and your price is $" +" "+ newPizza.price+ "</li>");
+    $("ul#price").append("<li>"+"One"+ " "+ newPizza.size +" "+ "size "+" "+" pizza"+ " with "+sauce+ " sauce" +" & "+"toppings "+ " "+ listOfToppings + " "+": $" +" "+ newPizza.price+ "</li>");
     listOfToppings=[];
 
-  $("#pizza-order").trigger("reset");
+    $("#pizza-order").trigger("reset");
 
 
   });
