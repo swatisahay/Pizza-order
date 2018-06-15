@@ -45,6 +45,7 @@ var totalPrice=0
 $(document).ready(function(){
   $("form#pizza-order").submit(function(event){
     event.preventDefault();
+    $("#bill").show();
     var size = $("#size").val();
     var sauce= $("#sauce").val();
     var listOfToppings=[];

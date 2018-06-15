@@ -24,3 +24,6 @@ h2{
 #size{
  font-size: 15px;
 }
+#bill{
+  display: none;
+}
