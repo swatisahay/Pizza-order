@@ -1,6 +1,6 @@
 # _Epicodus independent project_
 
-#### _Pizza ordering website, 06/11/2018_
+#### _Pizza ordering website, 06/15/2018_
 
 #### By _**Swati Sahay_**_
 
