@@ -1,12 +1,12 @@
-# _xxx_
+# _Epicodus independent project_
 
-#### _xxx, 06/11/2018_
+#### _Pizza ordering website, 06/11/2018_
 
-#### By _**xxx**_
+#### By _**Swati Sahay_**_
 
 ## Description
 
-_xxx_
+_Its a customized pizza ordering site where you can select your toppings and size to order pizza_
 
 ## Setup/Installation Requirements
 
@@ -17,7 +17,7 @@ _xxx_
 
 ## Support and contact details
 
-_Please contact Jean84646@gmail.com  and swatiranjan0111@gmail.com for any issues, questions, ideas, or concerns._
+_Please contact  swatiranjan0111@gmail.com for any issues, questions, ideas, or concerns._
 
 ## Technologies Used
 
@@ -27,4 +27,4 @@ _HTML, CSS, Bootstrap, JavaScript branching, arrays, and loops, jQuery functions
 
 *This software is licensed under the MIT license*
 
-Copyright (c) 2018 **_Jean Jia and Swati Sahay_**
+Copyright (c) 2018 **_Swati Sahay_**
