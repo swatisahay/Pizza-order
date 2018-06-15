@@ -8,6 +8,10 @@
 
 _Its a customized pizza ordering site where you can select your toppings and size to order pizza_
 
+## Specification:
+* _Customer can customize there pizza_
+* _Afer Customizing pizza they should be able to get price of each pizza_
+
 ## Setup/Installation Requirements
 
 * _Git clone this folder_
